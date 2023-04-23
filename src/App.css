@@ -39,3 +39,58 @@
 .home__header--right .css-i4bv87-MuiSvgIcon-root {
   margin-right: 20px;
 }
+
+/* HOME BODY */
+
+.home__body {
+  flex: 1;
+  display: flex;
+  margin: 10% 0 0 0;
+  flex-direction: column;
+}
+
+.home__body--img {
+  height: 100px;
+  object-fit: contain;
+}
+
+/* SEARCH COMPONENT */
+
+.search__wrapper {
+  display: flex;
+  align-items: center;
+  border: 1px solid lightgray;
+  height: 30px;
+  padding: 10px 20px;
+  border-radius: 9999px;
+  width: 75vw;
+  margin: 0 auto;
+  margin-top: 40px;
+  max-width: 550px;
+}
+
+.search__wrapper input {
+  flex: 1;
+  padding: 10px 20px;
+  border: none;
+  font-size: medium;
+}
+
+.search__wrapper input:focus {
+  outline-width: 0;
+}
+
+.search__input--icon {
+  color: gray;
+}
+
+.search-buttons__wrapper {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.search-buttons__wrapper button {
+  margin: 5px;
+  padding: 8px 16px;
+}
