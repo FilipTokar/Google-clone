@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import AppsIcon from "@mui/icons-material/Apps";
 import { Avatar } from "@mui/material";
-import Search from "../components/Search";
+import Input from "../components/Input";
 
 export default function Home() {
   return (
@@ -25,7 +25,7 @@ export default function Home() {
           alt=""
         />
         <div className="home__input">
-            <Search/>
+            <Input/>
         </div>
       </div>
     </div>

@@ -8,7 +8,7 @@ import { useNavigate } from 'react-router-dom';
 import { useStateValue } from '../StateProvider';
 import { actionTypes } from '../reducer';
 
-export default function Search({hideButtons = false}) {
+export default function Input({hideButtons = false}) {
 
     // Material UI theme
     const theme = createTheme({
