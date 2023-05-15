@@ -205,3 +205,50 @@
 .search-page__options a {
   cursor: not-allowed;
 }
+
+@media (max-width:768px) {
+  .search-page__results {
+    max-width: 90%;
+    margin-left: 28px;
+  }
+
+  .search-page__header {
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+  }
+
+  .search-page__header--logo {
+    margin:0 0 24px 0;
+  }
+
+  .search {
+    max-width: 600px;
+    width: 100%;
+    align-items: center;
+  }
+
+  .search-page__header--body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .search-page__options--left {
+    margin-left: 28px;
+  }
+  .search-page__options--right {
+    margin-left: 20px;
+  }
+}
+
+@media (max-width:480px) {
+  .search {
+    max-width: 400px;
+    }
+
+  .search-page__options--right,
+  .search-page__options--left {
+    display: none;
+  }
+}
